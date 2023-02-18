@@ -6,3 +6,8 @@
   0px 0px;
     animation: play 0.8s steps(4) infinite;
 }
+@keyframes play {
+  100% {
+    background-position: -256px;
+  	}
+	}
