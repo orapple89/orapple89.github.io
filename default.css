@@ -1,0 +1,8 @@
+.page.login .logo {
+
+    height: 64px;
+    width: 64px;
+    background: url('/img/anim.png')
+  0px 0px;
+    animation: play 0.8s steps(4) infinite;
+}
