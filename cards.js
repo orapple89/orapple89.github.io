@@ -31,7 +31,7 @@ var players = {
 ]
 };
 
-
+/*
 shuffle() {
   let numberOfCards = this.cards.length;  
   for (var i=0; i<numberOfCards; i++) {
@@ -41,7 +41,7 @@ shuffle() {
     this.cards[j] = tmp;
   }
 } //End of shuffle()
-
+*/
 
 var cards = {
     "members" : [
