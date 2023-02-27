@@ -1,7 +1,9 @@
 var players = {
     "members" : [
     {
-
+      playerNum: 1,
+      userName: 'Chopsticks',
+      score: 0
 
 
     },
