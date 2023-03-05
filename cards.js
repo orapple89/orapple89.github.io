@@ -131,12 +131,14 @@ var deck = {
    },
    {
     cardNum: 13,
+    cardOrder: null,
     cardName: 'tempura',
     cardStatus: 1, //card status 1=deck 2=hand 3=played 4=discard
     imgsrc: "/img/small cards/tempura.png",
    },
    {
     cardNum: 14,
+    cardOrder: null,
     cardName: 'tempura',
     cardStatus: 1, //card status 1=deck 2=hand 3=played 4=discard
     imgsrc: "/img/small cards/tempura.png",
