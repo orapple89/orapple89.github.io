@@ -43,76 +43,88 @@ shuffle() {
 } //End of shuffle()
 */
 
-var cards = {
-    "members" : [
+var deck = {
+    "cards" : [
     {
     cardNum: 1,
+    cardOrder: null,
     cardName: 'tempura',
     cardStatus: 1, //card status 1=deck 2=hand 3=played 4=discard
     imgsrc: "/img/small cards/tempura.png",
    },
    {
     cardNum: 2,
+    cardOrder: null,
     cardName: 'tempura',
     cardStatus: 1, //card status 1=deck 2=hand 3=played 4=discard
     imgsrc: "/img/small cards/tempura.png",
    },
    {
     cardNum: 3,
+    cardOrder: null,
     cardName: 'tempura',
     cardStatus: 1, //card status 1=deck 2=hand 3=played 4=discard
     imgsrc: "/img/small cards/tempura.png",
    },
    {
     cardNum: 4,
+    cardOrder: null,
     cardName: 'tempura',
     cardStatus: 1, //card status 1=deck 2=hand 3=played 4=discard
     imgsrc: "/img/small cards/tempura.png",
    },
    {
     cardNum: 5,
+    cardOrder: null,
     cardName: 'tempura',
     cardStatus: 1, //card status 1=deck 2=hand 3=played 4=discard
     imgsrc: "/img/small cards/tempura.png",
    },
    {
     cardNum: 6,
+    cardOrder: null,
     cardName: 'tempura',
     cardStatus: 1, //card status 1=deck 2=hand 3=played 4=discard
     imgsrc: "/img/small cards/tempura.png",
    },
    {
     cardNum: 7,
+    cardOrder: null,
     cardName: 'tempura',
     cardStatus: 1, //card status 1=deck 2=hand 3=played 4=discard
     imgsrc: "/img/small cards/tempura.png",
    },
    {
     cardNum: 8,
+    cardOrder: null,
     cardName: 'tempura',
     cardStatus: 1, //card status 1=deck 2=hand 3=played 4=discard
     imgsrc: "/img/small cards/tempura.png",
    },
    {
     cardNum: 9,
+    cardOrder: null,
     cardName: 'tempura',
     cardStatus: 1, //card status 1=deck 2=hand 3=played 4=discard
     imgsrc: "/img/small cards/tempura.png",
    },
    {
     cardNum: 10,
+    cardOrder: null,
     cardName: 'tempura',
     cardStatus: 1, //card status 1=deck 2=hand 3=played 4=discard
     imgsrc: "/img/small cards/tempura.png",
    },
    {
     cardNum: 11,
+    cardOrder: null,
     cardName: 'tempura',
     cardStatus: 1, //card status 1=deck 2=hand 3=played 4=discard
     imgsrc: "/img/small cards/tempura.png",
    },
    {
     cardNum: 12,
+    cardOrder: null,
     cardName: 'tempura',
     cardStatus: 1, //card status 1=deck 2=hand 3=played 4=discard
     imgsrc: "/img/small cards/tempura.png",
