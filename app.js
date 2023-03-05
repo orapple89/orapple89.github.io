@@ -2,8 +2,9 @@ const express = require('express');
 const app = express();
 const port = 3000;
 
-const httpServer = require("http").createServer(app);
-const options = { /* ... */ };
+//const httpServer = require("http").createServer(app);
+//const options = { /* ... */ };
+/*
 const io = require("socket.io")(httpServer, options);
 
 io.on("connection", socket => {
@@ -26,9 +27,12 @@ io.on("connection", socket => {
 
 httpServer.listen(3000);
 
-/* WARNING !!! app.listen(3000); will not work here, as it creates a new HTTP server
 
-****express test****
+
+WARNING !!! app.listen(3000); will not work here, as it creates a new HTTP server
+*/
+
+//****express test****
 app.get('/', (req,res) => {
     res.send('hello world')
 })
@@ -36,7 +40,6 @@ app.get('/', (req,res) => {
 app.listen(port, () => {
     console.log(`Example app listening on port ${port}`)
   })
-*/
 
 //***node test***
 //console.log("Node is installed xxxnode");

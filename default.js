@@ -1,12 +1,12 @@
-const socket = io("ws://localhost:3000");
+//const socket = io("ws://localhost:3000");
 
-socket.on("connect", () => {
+//socket.on("connect", () => {
   // either with send()
-  socket.send("Hello!");
+//  socket.send("Hello!");
 
   // or with emit() and custom event names
   //socket.emit("salutations", "Hello!", { "mr": "john" }, Uint8Array.from([1, 2, 3, 4]));
-});
+//});
 
 /*
 
