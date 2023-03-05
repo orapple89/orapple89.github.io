@@ -5,8 +5,10 @@ socket.on("connect", () => {
   socket.send("Hello!");
 
   // or with emit() and custom event names
-  socket.emit("salutations", "Hello!", { "mr": "john" }, Uint8Array.from([1, 2, 3, 4]));
+  //socket.emit("salutations", "Hello!", { "mr": "john" }, Uint8Array.from([1, 2, 3, 4]));
 });
+
+/*
 
 // handle the event sent with socket.send()
 socket.on("message", data => {
@@ -17,3 +19,4 @@ socket.on("message", data => {
 socket.on("greetings", (elem1, elem2, elem3) => {
   console.log(elem1, elem2, elem3);
 });
+*/
