@@ -145,36 +145,43 @@ var deck = {
    },
    {
     cardNum: 15,
+    cardOrder: null,
     cardName: 'sashimi',
     cardStatus: 1, //card status 1=deck 2=hand 3=played 4=discard
     imgsrc: "/img/small cards/sashimi.png",
    },
    {
     cardNum: 16,
+    cardOrder: null,
     cardName: 'sashimi',
     cardStatus: 1, //card status 1=deck 2=hand 3=played 4=discard
     imgsrc: "/img/small cards/sashimi.png",
    },
    {
     cardNum: 17,
+    cardOrder: null,
     cardName: 'sashimi',
     cardStatus: 1, //card status 1=deck 2=hand 3=played 4=discard
     imgsrc: "/img/small cards/sashimi.png",
    },
    {
     cardNum: 18,
+    cardOrder: null,
     cardName: 'sashimi',
     cardStatus: 1, //card status 1=deck 2=hand 3=played 4=discard
     imgsrc: "/img/small cards/sashimi.png",
    },
    {
     cardNum: 19,
+    cardOrder: null,
+    cardOrder: null,
     cardName: 'sashimi',
     cardStatus: 1, //card status 1=deck 2=hand 3=played 4=discard
     imgsrc: "/img/small cards/sashimi.png",
    },
    {
     cardNum: 20,
+    cardOrder: null,
     cardName: 'sashimi',
     cardStatus: 1, //card status 1=deck 2=hand 3=played 4=discard
     imgsrc: "/img/small cards/sashimi.png",
@@ -182,11 +189,13 @@ var deck = {
    {
     cardNum: 21,
     cardName: 'sashimi',
+    cardOrder: null,
     cardStatus: 1, //card status 1=deck 2=hand 3=played 4=discard
     imgsrc: "/img/small cards/sashimi.png",
    },
    {
     cardNum: 22,
+    cardOrder: null,
     cardName: 'sashimi',
     cardStatus: 1, //card status 1=deck 2=hand 3=played 4=discard
     imgsrc: "/img/small cards/sashimi.png",
@@ -194,35 +203,41 @@ var deck = {
    {
     cardNum: 23,
     cardName: 'sashimi',
+    cardOrder: null,
     cardStatus: 1, //card status 1=deck 2=hand 3=played 4=discard
     imgsrc: "/img/small cards/sashimi.png",
    },
    {
     cardNum: 24,
+    cardOrder: null,
     cardName: 'sashimi',
     cardStatus: 1, //card status 1=deck 2=hand 3=played 4=discard
     imgsrc: "/img/small cards/sashimi.png",
    },
    {
     cardNum: 25,
+    cardOrder: null,
     cardName: 'sashimi',
     cardStatus: 1, //card status 1=deck 2=hand 3=played 4=discard
     imgsrc: "/img/small cards/sashimi.png",
    },
    {
     cardNum: 26,
+    cardOrder: null,
     cardName: 'sashimi',
     cardStatus: 1, //card status 1=deck 2=hand 3=played 4=discard
     imgsrc: "/img/small cards/sashimi.png",
    },
    {
     cardNum: 27,
+    cardOrder: null,
     cardName: 'sashimi',
     cardStatus: 1, //card status 1=deck 2=hand 3=played 4=discard
     imgsrc: "/img/small cards/sashimi.png",
    },
    {
     cardNum: 28,
+    cardOrder: null,
     cardName: 'sashimi',
     cardStatus: 1, //card status 1=deck 2=hand 3=played 4=discard
     imgsrc: "/img/small cards/sashimi.png",

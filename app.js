@@ -1,8 +1,18 @@
+//var io = require('socket.io')(http);
 
-var express = require('express');
-var app = express();
-app.use(express.static('public'));
-app.use(express.static('dashboard'));
-var http = require('http').Server(app);
-var io = require('socket.io')(http);
-var port = process.env.PORT || 3000;
+const express = require('express');
+const app = express();
+const port = 3000;
+
+app.get('/', (req,res) => {
+    res.send('hello world')
+})
+
+app.listen(port, () => {
+    console.log(`Example app listening on port ${port}`)
+  })
+
+
+
+
+//console.log("Node is installed xxxnode");
