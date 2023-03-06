@@ -8,7 +8,7 @@ $('#login').on('click', function() {
       $('#page-login').hide();
       $('#page-lobby').show();
 
-      createNewGame();
+      //createNewGame();
   } 
 });
 
