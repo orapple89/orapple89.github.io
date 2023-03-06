@@ -3,7 +3,7 @@ $('#login').on('click', function() {
   
   if (username.length > 0) {
       $('#userLabel').text(username);
-      socket.emit('login', username);
+      //socket.emit('login', username);
       
       $('#page-login').hide();
       $('#page-lobby').show();
