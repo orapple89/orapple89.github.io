@@ -1,48 +1,24 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-
   <head>
-    <!--
-    <meta name="viewport" content="width=410; user-scalable=no; minimal-ui">
-    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
-    <link rel="stylesheet" href="/default.css" />
-    -->
+    <title>Socket.IO chat</title>
+    <style>
+      body { margin: 0; padding-bottom: 3rem; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+
+      #form { background: rgba(0, 0, 0, 0.15); padding: 0.25rem; position: fixed; bottom: 0; left: 0; right: 0; display: flex; height: 3rem; box-sizing: border-box; backdrop-filter: blur(10px); }
+      #input { border: none; padding: 0 1rem; flex-grow: 1; border-radius: 2rem; margin: 0.25rem; }
+      #input:focus { outline: none; }
+      #form > button { background: #333; border: none; padding: 0 1rem; margin: 0.25rem; border-radius: 3px; outline: none; color: #fff; }
+
+      #messages { list-style-type: none; margin: 0; padding: 0; }
+      #messages > li { padding: 0.5rem 1rem; }
+      #messages > li:nth-child(odd) { background: #efefef; }
+    </style>
   </head>
-
   <body>
-    <!-- Lobby screen below
-    <div class="page lobby" id='page-lobby'>
-      <h1>Sushi Go!</h1>
-      <h2 id='userLabel'></h2>
-
-       Login screen below
-    <div class="page login" id='page-login'>
-        <div class='logo'></div>
-        <input id='username'>
-        <button id='login'>Login</button>
-      </div>
-      
-      <h3>Online players</h3>
-       <div id='userList'>
-      </div>
-      
-      <h3>Active games</h3>
-      <div id='gamesList'>
-      </div>
-      -->
-      <script src="/node_modules/socket.io/client-dist/socket.io.js"></script>
-
-      <script>
-        var socket = io('http://localhost:5000');
-            socket.on('greeting-from-server', function (message) {
-                document.body.appendChild(
-                    document.createTextNode(message.greeting)
-                );
-                socket.emit('greeting-from-client', {
-                    greeting: 'Hello Server'
-                });
-            });
-        </script>
-
+    <ul id="messages"></ul>
+    <form id="form" action="">
+      <input id="input" autocomplete="off" /><button>Send</button>
+    </form>
   </body>
 </html>
