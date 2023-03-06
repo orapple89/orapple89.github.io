@@ -1,13 +1,53 @@
-.page.login .logo {
-
-    height: 64px;
-    width: 64px;
-    background: url('/anim.png')
-  0px 0px;
-    animation: play 0.8s steps(4) infinite;
+.page {
+	margin-top: 20px;
 }
-@keyframes play {
+
+.page-login {
+	display: flex;
+	flex-direction: column;
+}
+	
+	.page.login .logo {
+
+  		height: 64px;
+  		width: 64px;
+  		background: url('/img/anim.png')
+		0px 0px;
+  		animation: play 0.8s steps(4) infinite;
+
+		/*display: block;
+		background-color: lightgray;
+		background-image: url('/img/DuneTitle.png');
+		background-size: cover;
+		background-position: center center;
+
+		margin-bottom: 50px;	
+		
+		width: 376px;
+		height: 496px;*/
+	}
+/*
+	@keyframes play {
   100% {
     background-position: -256px;
   	}
+	}
+*/
+	
+	.page.login button {
+		margin-left: 15px;
+		margin-bottom: 20px;
+		height: 35px;
+	}
+	
+	.page.login input {
+		margin-bottom: 20px;
+		width: 202px;
+		height: 25px;
+		font-size: 12pt;
+		padding: 2px;
+		
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		border-radius: 5px; 
 	}
